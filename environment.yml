@@ -1,0 +1,20 @@
+name: curve-extractor-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - opencv
+  - pytesseract
+  - tesseract
+  - pdf2image
+  - poppler
+  - numpy
+  - pandas
+  - matplotlib
+  - streamlit
+  - jupyter
+  - scikit-image
+  - pip
+  - pip:
+      - streamlit-option-menu
